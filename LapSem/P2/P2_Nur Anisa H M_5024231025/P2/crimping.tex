@@ -1,0 +1,93 @@
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+Seiring bertambahnya jumlah perangkat yang terhubung ke internet, kebutuhan akan alamat IP juga semakin besar. IPv6 dikembangkan untuk menggantikan IPv4 yang sudah terbatas jumlah alamatnya. Agar jaringan IPv6 bisa berjalan dengan baik, diperlukan routing dan manajemen yang tepat. Routing IPv6 berfungsi untuk menentukan jalur terbaik dalam mengirimkan paket data antar jaringan, baik dengan cara statis maupun dinamis. Sementara itu, manajemen IPv6 mencakup pengaturan alamat, pengawasan lalu lintas, serta pengendalian kebijakan jaringan agar koneksi tetap lancar dan teratur. Dengan memahami cara kerja routing dan manajemen pada IPv6, kita dapat membangun jaringan yang efisien, luas, dan siap menghadapi kebutuhan di masa depan.
+
+\subsection{Dasar Teori}
+IPv6 atau Internet Protocol version 6 dikembangkan oleh IETF (Internet Engineering Task Force) sebagai solusi atas keterbatasan sistem alamat IPv4 yang hanya menyediakan sekitar 4,3 miliar alamat unik. Pada awalnya, IPv4 dirasa cukup untuk kebutuhan internet, namun seiring meningkatnya jumlah perangkat yang terhubung, seperti komputer, smartphone, hingga perangkat IoT (Internet of Things), alamat IPv4 mulai habis. Untuk itu, IPv6 dirancang dengan panjang alamat 128 bit, jauh lebih besar dibandingkan 32 bit pada IPv4, sehingga mampu menyediakan lebih dari 340 triliun-triliun-triliun alamat unik. Selain dari kapasitas alamat, IPv6 juga membawa sejumlah perbedaan penting dibandingkan IPv4, seperti penggunaan notasi heksadesimal yang dipisahkan oleh titik dua (:), penghapusan NAT (Network Address Translation), serta pengelolaan alamat dan routing yang lebih efisien. Format alamat IPv6 terdiri dari delapan blok, masing-masing berisi 16 bit, dan mendukung beberapa jenis alamat seperti unicast untuk satu tujuan, multicast untuk banyak tujuan sekaligus, dan anycast untuk tujuan terdekat secara topologis. Dalam hal pengaturan jaringan, IPv6 menggunakan konsep subnetting dengan panjang prefix yang umum digunakan yaitu /64, yang membagi jaringan menjadi bagian-bagian lebih kecil agar lebih mudah diatur. Routing pada IPv6 bisa dilakukan secara statis, di mana administrator menentukan jalur secara manual, atau secara dinamis dengan menggunakan protokol seperti OSPFv3 (Open Shortest Path First version 3) dan RIPng (Routing Information Protocol next generation). 
+
+%===========================================================%
+\section{Tugas Pendahuluan}
+\begin{enumerate}
+	\item Jelaskan apa itu IPV6 dan apa bedanya dengan IPV4.\\
+	IPv6 merupakan versi terbaru dan merupakan pengembangan dari IPv4. IPv6 dikembangkan karena IPv4 dirasa kurang cukup untuk memenuhi kebutuhan karena jumlah alamat yang terbatas. Perbedaan utama dari IPv6 dan IPv4 terletak pada jumlah kombinasi atau panjang alamatnya. IPv4 memiliki panjang 32 bit atau $\pm$ 4,3 miliar kombinasi alamat. Sedangkan IPv6 memiliki panjang 128 bit atau $\pm$ 340 undecilion kombinasi alamat. Keduanya juga berbeda dalam hal representasi alamatnya. IPv4 direpresentasikan dengan bilangan desimal representasi dari dari tiap byte nya. Setiap byte akan dipisahkan oleh titik. Sedangkan IPv6 menggunakan bilangan hexadesimal untuk merepresentasikan setiap 2 byte bagian alamatnya dimana setiap 2 byte akan dipishkan oleh tanda titik dua (:). IPv6 juga sudah dilengkapi dengan IP security build-in, berbeda dengan IPv4 dimana IPSec tidak wajib. Dalam hal kompatibilitas, tentu sebagian besar perangkat, terutama perangkat lama, belum mendukung penggunaan IPv6.
+	\item Sebuah organisasi mendapatkan blok alamat IPv6 2001:db8::/32. 
+	\begin{enumerate}
+		\item Bagilah alamat tersebut menjadi empat subnet berbeda menggunakan prefix /64 \\
+		IPv6 memiliki panjang 128 bit atau 16 byte. Menggunakan prefix /64 dari alamat asal /32 berarti menambahkan 32 bit atau 4 byte tamabhan untuk network portion yang bisa digunakan untuk pembagian subneting. Sehingga, kemungkinan akan ada $2^32 = 4,294,967,296$ subnet. Karena hanya memerlukan 4, maka akan diambil 4 alamat paling awal.
+		\item Tuliskan hasil alokasi alamat IPv6 subnet untuk: - Subnet A - Subnet B - Subnet C - Subnet D\\
+		\begin{table}[!h]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				No & Subnet & Alamat Network Subnet \\ \hline
+				1 & Subnet A & 2001:0db8:0000:0000::/64 \\ \hline
+				2 & Subnet B & 2001:0db8:0000:0001::/64 \\ \hline
+				3 & Subnet C & 2001:0db8:0000:0002::/64 \\ \hline
+				4 & Subnet C & 2001:0db8:0000:0003::/64 \\ \hline
+			\end{tabular}
+		\end{table}
+	\end{enumerate}
+	\item Asumsikan terdapat sebuah router yang menghubungkan keempat subnet tersebut melalui empat antarmuka:
+	\begin{itemize}
+		\item ether1 (Subnet A)
+		\item ether2 (Subnet B)
+		\item ether3 (Subnet C)
+		\item ether4 (Subnet D)
+	\end{itemize}
+	\begin{enumerate}
+		\item Tentukan alamat IPv6 yang akan digunakan pada masing-masing antarmuka router. \\
+		Diambil alamt pertama dari setiap subnet. Berikut ini merupakan alamat interface yang digunakan:
+		\begin{table}[!h]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				No & Interface & Alamat \\ \hline
+				1 & Ether 1 & 2001:0db8:0:0::1 \\ \hline
+				2 & Ether 2 & 2001:0db8:0:1::1 \\ \hline
+				3 & Ether 3 & 2001:0db8:0:2::1 \\ \hline
+				4 & Ether 4 & 2001:0db8:0:3::1 \\ \hline
+			\end{tabular}
+		\end{table}
+		\item Buatkan konfigurasi IP address IPv6 pada masing-masing antarmuka router.\\
+		Untuk konfigurasi di router Mikrotik menggunakan terminal, bisa memasukkan \\
+		\begin{tcolorbox}[colback=gray!10, colframe=black, title=IPv6 Configuration, fonttitle=\bfseries]
+		\begin{verbatim}
+		/ipv6 address add address=2001:0db8:0000:0000::1/64 interface=ether1
+		/ipv6 address add address=2001:0db8:0000:4000::1/64 interface=ether2
+		/ipv6 address add address=2001:0db8:0000:8000::1/64 interface=ether3
+		/ipv6 address add address=2001:0db8:0000:c000::1/64 interface=ether4
+		/ipv6 settings set accept-router-advertisements=yes forwarding=yes
+		\end{verbatim}
+		\end{tcolorbox}
+		Jika menggunakan GUI Mikrotik, bisa masuk ke menu IPv6 > Address > tambah (+) > Isi "Address" dan "Interface" sesuai yang diinginkan > Ok. Lakukan untuk semua interface.
+	\end{enumerate}
+	\item Buatlah daftar IP Table berupa daftar rute statis agar semua subnet dapat saling berkomunikasi.\\
+	Karena semua interface hanya terhubung ke 1 router, maka tidak diperlukan adanya routing table. Routing table diperlukan jika setidaknya ada 2 router yang terhubung. Misalkan ada router A (untuk Subnet A dan B) dan Router B (untuk Subnet C dan D). Pengalamatan interface dengan menambahkan 1 subnet tambahan menjadi: \\
+	\begin{table}[H]
+		\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				No & Interface & Alamat \\ \hline
+				1 & Ether 1 Router A & 2001:0db8:0:0::1 \\ \hline
+				2 & Ether 2 Router A & 2001:0db8:0:1::1 \\ \hline
+				3 & Ether 1 Router B & 2001:0db8:0:2::1 \\ \hline
+				4 & Ether 2 Router B & 2001:0db8:0:3::1 \\ \hline
+				4 & Ether 3 Router A & 2001:0db8:0:4::1 \\ \hline
+				4 & Ether 3 Router B & 2001:0db8:0:4::2 \\ \hline
+			\end{tabular}
+	\end{table}
+	Maka, routing table nya menjadi:\\
+	\begin{table}[H]
+		\centering
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				No & Router & Tujuan & Next Hop (Gateway) \\ \hline
+				1 & Router A & 2001:0db8:0:2::/64 & 2001:0db8:0:4::2 \\ \hline
+				2 & Router A & 2001:0db8:0:3::/64 & 2001:0db8:0:4::2 \\ \hline
+				3 & Router B & 2001:0db8:0::/64 & 2001:0db8:0:4::1 \\ \hline
+				4 & Router B & 2001:0db8:0:1::/64 & 2001:0db8:0:4::1 \\ \hline
+			\end{tabular}
+		\end{table}
+	\item Jelaskan apa fungsi dari routing statis pada jaringan IPv6, dan kapan sebaiknya digunakan dibandingkan routing dinamis.\\
+	Routing statis berfungsi untuk memberi tahu router ke mana harus mengarahkan paket jika alamat tujuan berada pada subnet yang tidak terhubung secara langsung pada router yang sama. Routing statis sebaiknya dipakai untuk jaringan kecil dengan router minim dan topologi yang jarang berubah. Hal ini karena penggunaan routing dinamis membutuhkan overhead CPU dan memori sehingga akan kurang efisien untuk network bertopologi sederhana.
+\end{enumerate}
