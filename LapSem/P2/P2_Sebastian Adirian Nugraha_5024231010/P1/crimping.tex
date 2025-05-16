@@ -1,0 +1,75 @@
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+Seiring dengan pesatnya pertumbuhan perangkat yang terhubung ke internet, kebutuhan akan alamat IP mengalami peningkatan yang sangat signifikan. Protokol IPv4 yang selama ini digunakan hanya menyediakan sekitar 4,3 miliar alamat, yang terbukti tidak mencukupi untuk mendukung kebutuhan global, terutama dengan munculnya teknologi seperti Internet of Things (IoT), cloud computing, dan mobile internet. Untuk mengatasi keterbatasan ini, dikembangkanlah IPv6 (Internet Protocol version 6), yang menawarkan ruang alamat jauh lebih besar dengan panjang 128 bit, memungkinkan penyediaan sekitar $3,4\times10^{38}$ alamat unik. Selain memperluas kapasitas alamat, IPv6 juga membawa berbagai perbaikan dari sisi efisiensi routing, keamanan jaringan, serta kemampuan autokonfigurasi, yang menjadikannya solusi jangka panjang untuk mengakomodasi perkembangan teknologi dan jumlah pengguna internet yang terus meningkat.
+
+\subsection{Dasar Teori}
+Routing adalah proses pengiriman paket data dari satu jaringan ke jaringan lain melalui perangkat yang disebut router. Router bertugas menentukan jalur terbaik untuk mencapai tujuan dengan memanfaatkan tabel routing yang berisi informasi tentang jaringan yang dapat dicapai dan arah (next hop) untuk mencapainya. Dalam implementasinya, terdapat dua jenis metode routing, yaitu routing statis dan routing dinamis. Routing statis dikonfigurasi secara manual oleh administrator, sementara routing dinamis memungkinkan router bertukar informasi rute secara otomatis menggunakan protokol seperti OSPF, RIPng, atau BGP.
+
+IPv6 (Internet Protocol versi 6) merupakan versi terbaru dari protokol internet yang dirancang untuk menggantikan IPv4 karena keterbatasan jumlah alamat IP. IPv6 memiliki panjang alamat 128 bit, sehingga mampu menyediakan sekitar $3,4\times10^{38}$ alamat unik — jauh lebih banyak dibandingkan IPv4 yang hanya menyediakan sekitar 4,3 miliar. Selain peningkatan kapasitas alamat, IPv6 juga membawa berbagai fitur baru seperti autokonfigurasi alamat, penyederhanaan header, dan dukungan keamanan end-to-end melalui IPsec. Dalam manajemen jaringan, IPv6 juga mempermudah segmentasi jaringan dan pengalamatan subnet berkat sistem penomorannya yang hirarkis dan fleksibel.
+
+Manajemen IPv6 mencakup pengelolaan alamat, konfigurasi antarmuka, serta pengaturan routing antar subnet. Dalam praktiknya, router IPv6 harus dikonfigurasi untuk mengenali jaringan yang terhubung langsung dan juga rute menuju jaringan lain. Untuk jaringan kecil atau topologi tetap, routing statis sering dipilih karena lebih sederhana dan aman. Namun, dalam jaringan besar dengan banyak router dan perubahan topologi yang dinamis, protokol routing dinamis lebih efisien. Oleh karena itu, pemahaman tentang dasar-dasar routing serta manajemen pengalamatan IPv6 sangat penting agar jaringan berjalan stabil, efisien, dan mudah diatur.
+
+%===========================================================%
+\section{Tugas Pendahuluan}
+\begin{enumerate}
+	\item Versi terbaru dari protokol internet, yang dikenal sebagai IPv6, telah dibuat untuk mengambil alih dari IPv4 yang lebih lama. IPv4 menggunakan panjang alamat 32 bit dan hanya mampu memberikan sekitar 4,3 miliar alamat IP unik, yang sekarang hampir habis karena pertumbuhan perangkat yang cepat yang terhubung ke Internet. IPv6 menawarkan panjang alamat 128-bit, memungkinkan pembuatan lebih dari 340 quintillion quintillion IP alamat, cukup untuk persyaratan di masa depan. Seiring dengan memberikan lebih banyak alamat, IPv6 juga membawa fitur tambahan seperti Automatic Setup (SLAAC), keamanan bawaan dengan IPSEC, dan jalur yang lebih baik untuk data.
+    IPv4 menggunakan alamat 32-bit, sementara IPv6 menggunakan alamat 128-bit. Alamat IPv4 ditulis dalam format desimal dan dipisahkan oleh titik (Contoh: 192.168.1.1), sementara IPv6 menggunakan format heksadesimal yang dipisahkan oleh titik dua (Contoh: 2001: 0db8: 85a3 :: 8a2e: 0370: 7334). IPv6 tidak membutuhkan Nat seperti IPv4 karena memiliki kumpulan alamat yang sangat besar. Meskipun IPv6 menawarkan banyak manfaat, penggunaannya yang luas berkembang secara fase karena dukungan yang tidak lengkap dari beberapa perangkat dan pengaturan jaringan.
+    
+	\item IPv6 2001:db8::/32
+        \begin{enumerate} [label=\alph*)]
+            \item Prefix yang ditargetkan adalah /64, sedangkan prefix dari blok alamat IPv6 adalah /32. Dari /32 ke /64 ada 32 bit tambahan yang dapat digunakan menjadi subnet. Sehingga total subnet yang dapat dibuat adalaha $2^{32}$ atau 4 miliar subnet, sedangkan kita hanya membutuhkan 4 subnet. Dari situ dapat disimpulkan bawha kita hanya perlu mengubah variasi 2 bit pertama dari 32 bit yang ditambah tadi, hal ini dikarenakan 2 bit dapat membuat 4 kombinasi subnet dari (00,01,10,11). karena blok asal 32 bit maka alamat 2001:0db: pasti tetap.
+            \item Hasil alokasi alamat IPV6 subnety /64.
+            \begin{enumerate} [label =\alph*]
+                \item Subnet A (variasi biner 00) -> 2001:db8:0::/64
+                \item Subnet B (variasi biner 01) -> 2001:db8:4000::/64
+                \item Subnet C (variasi biner 10) -> 2001:db8:8000::/64
+                \item SUbnet D (variasi biner 11) -> 2001:db8:c000::/64
+            \end{enumerate}
+        \end{enumerate}
+            
+	\item
+        \begin{enumerate}[label =\alph*]
+    	    \item Interface pada router untuk masing-masing subnet (Gateway).
+                \begin{enumerate}
+                    \item Subnet A -> 2001:db8:0::1/64
+                    \item Subnet B -> 2001:db8:4000::1/64
+                    \item Subnet C -> 2001:db8:8000::1/64
+                    \item Subnet D -> 2001:db8:c000::1/64
+                \end{enumerate}
+            \item Configurasi pada mikrotik via terminal command.
+                \begin{verbatim}
+                /ipv6 address
+                add address=2001:db8:0000::1/64 interface=ether1
+                add address=2001:db8:4000::1/64 interface=ether2
+                add address=2001:db8:8000::1/64interface=ether3
+                add address=2001:db8:c000::1/64 interface=ether4
+                \end{verbatim}
+    	\end{enumerate}
+
+    \item IP Table / Route
+        \begin{longtable}{@{}lll@{}}
+        \toprule
+        \textbf{Router} & \textbf{Subnet Tujuan} & \textbf{Next Hop (Router-1)} \\ \midrule
+        \endhead
+        
+        Router A (\texttt{2001:db8:0000::/64}) & \texttt{2001:db8:4000::/64} & \texttt{2001:db8:0000::1} \\
+                                               & \texttt{2001:db8:8000::/64} & \texttt{2001:db8:0000::1} \\
+                                               & \texttt{2001:db8:c000::/64} & \texttt{2001:db8:0000::1} \\
+        \addlinespace
+        Router B (\texttt{2001:db8:4000::/64}) & \texttt{2001:db8:0000::/64} & \texttt{2001:db8:4000::1} \\
+                                               & \texttt{2001:db8:8000::/64} & \texttt{2001:db8:4000::1} \\
+                                               & \texttt{2001:db8:c000::/64} & \texttt{2001:db8:4000::1} \\
+        \addlinespace
+        Router C (\texttt{2001:db8:8000::/64}) & \texttt{2001:db8:0000::/64} & \texttt{2001:db8:8000::1} \\
+                                               & \texttt{2001:db8:4000::/64} & \texttt{2001:db8:8000::1} \\
+                                               & \texttt{2001:db8:c000::/64} & \texttt{2001:db8:8000::1} \\
+        \addlinespace
+        Router D (\texttt{2001:db8:c000::/64}) & \texttt{2001:db8:0000::/64} & \texttt{2001:db8:c000::1} \\
+                                               & \texttt{2001:db8:4000::/64} & \texttt{2001:db8:c000::1} \\
+                                               & \texttt{2001:db8:8000::/64} & \texttt{2001:db8:c000::1} \\
+        \bottomrule
+        \end{longtable}
+
+    \item Routing statis pada jaringan IPv6 adalah metode pengaturan jalur lalu lintas data di mana administrator secara manual menentukan rute untuk mencapai jaringan tujuan. Fungsi utama dari routing statis adalah memberikan kendali penuh kepada administrator dalam menentukan jalur komunikasi antar subnet atau jaringan, sehingga lalu lintas dapat diarahkan secara spesifik sesuai kebutuhan. Routing statis juga memiliki keunggulan dalam hal keamanan dan efisiensi sumber daya, karena tidak melibatkan pertukaran informasi antar router seperti pada routing dinamis. Selain itu, routing statis lebih stabil karena tidak mudah berubah secara otomatis, dan cocok digunakan untuk jaringan yang sederhana, berskala kecil, atau memiliki topologi yang tetap. Misalnya, dalam sebuah kantor kecil dengan hanya beberapa router, penggunaan routing statis akan memudahkan pengelolaan dan mengurangi kompleksitas. Namun, routing statis kurang ideal untuk jaringan besar dan kompleks yang topologinya sering berubah, karena setiap perubahan harus dikonfigurasi ulang secara manual. Dalam kondisi seperti itu, routing dinamis lebih disarankan karena mampu menyesuaikan rute secara otomatis dan efisien. Dengan demikian, routing statis sebaiknya digunakan pada jaringan yang tidak memerlukan fleksibilitas tinggi, di mana stabilitas dan kendali manual menjadi prioritas utama.
+        
+\end{enumerate}
