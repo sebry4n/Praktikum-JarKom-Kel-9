@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  16 MAY 2025 05:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  19 MAY 2025 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,7 +746,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=34, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=70, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -755,56 +755,56 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 
 
 {C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-Overfull \hbox (6.66455pt too wide) in paragraph at lines 2--3
-\T1/qhv/m/n/10.95 Bagian ini men-je-lask-an se-ca-ra rin-ci ta-hap-an atau pro-se-dur yang di-la-kuk-an se-la-ma prak-ti-kum. Langkah-
- []
-
-<P1/img/tupen3.png, id=46, 747.54282pt x 341.77687pt>
-File: P1/img/tupen3.png Graphic file (type png)
-<use P1/img/tupen3.png>
-Package pdftex.def Info: P1/img/tupen3.png  used on input line 12.
-(pdftex.def)             Requested size: 241.84843pt x 110.5703pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
-
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \subsection
-                {Hasil Challenge Modul}
-<miot.png, id=48, 200.75pt x 200.75pt>
+l.23   \item M
+              enambahkan Routing Table \\
+<miot.png, id=82, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
-Package pdftex.def Info: miot.png  used on input line 28.
+Package pdftex.def Info: miot.png  used on input line 23.
 (pdftex.def)             Requested size: 238.9995pt x 239.01491pt.
  [1
 
- <./miot.png> <./P1/img/tupen3.png>]) [2] (LA.aux)
+ <./miot.png>] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+ []
+
+<P1/img/tupen3.png, id=100, 747.54282pt x 341.77687pt>
+File: P1/img/tupen3.png Graphic file (type png)
+<use P1/img/tupen3.png>
+Package pdftex.def Info: P1/img/tupen3.png  used on input line 57.
+(pdftex.def)             Requested size: 241.84843pt x 110.5703pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+[3]) [4 <./P1/img/tupen3.png>] (LA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `LA.out' has not changed.
-(rerunfilecheck)             Checksum: 766AE0BDB69FF7F9E0360BE4C72349DD;1011.
+(rerunfilecheck)             Checksum: 834691D31DFAB0590EA2240565F59E94;2498.
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21286 strings out of 474486
- 370887 string characters out of 5745172
- 1933542 words of memory out of 5000000
- 43292 multiletter control sequences out of 15000+600000
+ 21316 strings out of 474486
+ 371302 string characters out of 5745172
+ 1936542 words of memory out of 5000000
+ 43301 multiletter control sequences out of 15000+600000
  604084 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1263b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (3 pages, 182382 bytes).
+ 75i,12n,81p,1263b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvri.pfb>
+Output written on LA.pdf (5 pages, 213033 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

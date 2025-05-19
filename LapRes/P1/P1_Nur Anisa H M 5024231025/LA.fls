@@ -305,14 +305,6 @@ INPUT .\P1\crimping.tex
 INPUT .\P1\crimping.tex
 INPUT P1\crimping.tex
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvb.tfm
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT .\P1\img\tupen3.png
-INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvb.tfm
 INPUT .\miot.png
@@ -322,6 +314,14 @@ INPUT .\miot.png
 INPUT .\miot.png
 INPUT .\miot.png
 INPUT .\miot.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT .\P1\img\tupen3.png
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
 INPUT LA.aux
 INPUT .\LA.out
 INPUT .\LA.out
@@ -333,3 +333,5 @@ INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvb
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvbi.pfb
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvr.pfb
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvr.pfb
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvri.pfb
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvri.pfb
