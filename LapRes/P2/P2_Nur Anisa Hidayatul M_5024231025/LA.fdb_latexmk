@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LA"] 1748222962.99491 "LA.bcf" "LA.bbl" "LA" 1748244215.36796 0
-  "LA.bcf" 1748244214 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LA"] 1748222962.99491 "LA.bcf" "LA.bbl" "LA" 1748245878.84858 0
+  "LA.bcf" 1748245877 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1748244208.51473 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P2/P2_Nur Anisa Hidayatul M_5024231025/LA.tex" "LA.pdf" "LA" 1748244215.3697 0
+["pdflatex"] 1748245869.84408 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P2/P2_Nur Anisa Hidayatul M_5024231025/LA.tex" "LA.pdf" "LA" 1748245878.85204 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -130,12 +130,20 @@
   "Cover/img/footer.png" 1746707162 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1746707162 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LA.aux" 1748244214 3641 3ad8fb88b7e080f2f2542754b1d4f9c7 "pdflatex"
+  "Dokum P2/Dokum kelompok.jpg" 1748245802 101670 15f9751ba6673fe2b8bb7eb957a023e1 ""
+  "Dokum P2/Laptop 1/assign ip.png" 1748221433 9222 a2289f2ec0164af58c8e098392552ef1 ""
+  "Dokum P2/Laptop 2/jarkomp2-dinamis-2.png" 1748221433 13811 0a0a0a079dac07b6a6a0e737a81e7a62 ""
+  "Dokum P2/Laptop 2/jarkomp2-dinamis-3.png" 1748221433 14275 1060d608a5440c85d72fd875212de6ad ""
+  "Dokum P2/Laptop 2/jarkomp2-dinamis-4.png" 1748221433 12496 a6a46e16888dc94b80c10fc1e6849ebf ""
+  "Dokum P2/Laptop 2/jarkomp2-dinamis-5.png" 1748221433 80592 94cbbd8c14dd31d382cee54573db6f66 ""
+  "Dokum P2/Laptop 2/jarkomp2-dinamis-instance-ospfv3.png" 1748221433 26408 7ac8717938700a2d0b49ed30164d5a67 ""
+  "Dokum P2/Laptop 2/ping laptop 1 ipv6.png" 1748221433 99227 7bde4885c5c20ec039548385d95ddebb ""
+  "LA.aux" 1748245877 5227 c6385d6c45c3d8ad3ad4aa31a2038af3 "pdflatex"
   "LA.bbl" 1748222975 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748244214 1612 09ab7624eadf3bab258ca0f57d9def5f "pdflatex"
-  "LA.run.xml" 1748244214 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
+  "LA.out" 1748245877 1612 09ab7624eadf3bab258ca0f57d9def5f "pdflatex"
+  "LA.run.xml" 1748245877 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
   "LA.tex" 1748223028 2842 6d75943b60493a5e8818e145ad2a7cf0 ""
-  "P1/crimping.tex" 1748244197 7989 3ee64edfa15b9cf5639f90384ebbb2b5 ""
+  "P1/crimping.tex" 1748245844 9853 752c979e9f900e4207dd7266decc50c6 ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P2/P2_Nur Anisa Hidayatul M_5024231025/LA.tex" 1748223028 2842 6d75943b60493a5e8818e145ad2a7cf0 ""
   "miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
   "tumod/jarkom tumod 2.png" 1748235843 138913 162df371342c37309e55db4b69ed6e48 ""

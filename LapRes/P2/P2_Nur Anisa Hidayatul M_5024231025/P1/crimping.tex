@@ -7,13 +7,13 @@ Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan y
   \item Mereset Konfigurasi Router \\
   Sebelum memulai praktikum, praktikan mereset seluruh konfigurasi pada router. Praktikan pertama-tama membuka winbox dan login ke jaringan router. Kemudian, memilih menu system > reset configuration.
   \item Mengkonfigurasi Router \\
-  Setelah mereset konfigurasi, praktikan akan mengkonfigurasi ulang. Router akan dikonfigurasi agar memiliki alamat IPv6. Untuk melakukannya, praktikan membuka menu IPv6 > Addresses. Praktikan kemudian memberikan alamat sesuai modul untuk semua interface, baik yang terhubung ke laptop maupun yang terhubung dengan router lainnya.
+  Setelah mereset konfigurasi, praktikan akan mengkonfigurasi ulang. Router akan dikonfigurasi agar memiliki alamat IPv6. Untuk melakukannya, praktikan membuka menu IPv6 > Addresses. Praktikan kemudian memberikan alamat sesuai modul untuk semua interface, baik yang terhubung ke laptop maupun yang terhubung dengan router lainnya. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:langkaha2}.
   \item Routing Statis \\
-  Setelah semua interface memiliki almat IPv6, praktikan menambahkan routing table. Untuk melakukannya, praktikan membuka menu IPv6 > Routes. Praktikan kemudia menambahkan routing pada router A dengan network address dan gateway untuk laptop B. Sedangkan pada router B, praktikan menambahkan network address dan gateway untuk laptop A.
+  Setelah semua interface memiliki almat IPv6, praktikan menambahkan routing table. Untuk melakukannya, praktikan membuka menu IPv6 > Routes. Praktikan kemudia menambahkan routing pada router A dengan network address dan gateway untuk laptop B. Sedangkan pada router B, praktikan menambahkan network address dan gateway untuk laptop A. Hasil Routing Table dapat dilihat di gambar \ref{fig:langkaha3}.
   \item Mengkonfigurasi Laptop\\
   Praktikan juga mengkonfigurasi IPv6 statis untuk laptop. Praktikan membuka menu Network > IP Setting > IPv6. Kemudian emnambahkan alamta sesuai modul untuk laptop A dan laptop B.
   \item Menguji Konektivitas \\
-  Setelah semuanya dikonfigurasikan, praktikan menguji koneksi dengan ping ke interface router A, router B, dan laptop lainnya.
+  Setelah semuanya dikonfigurasikan, praktikan menguji koneksi dengan ping ke interface router A, router B, dan laptop lainnya. Hasil dari ping dapat dilihat pada gambar \ref{fig:langkaha5}.
 \end{enumerate}
 
 \subsection{Routing Dinamis IPv6}
@@ -21,13 +21,13 @@ Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan y
   \item Mengkonfigurasikan Router dan Laptop \\
   Pada percobaan kedua ini, praktikan perlu untuk mengkonfigurasi kembali alamat IPv6 router dan laptop. Namun, karena alamat yang digunakan sama dengan percobaan pertama, praktikan tidak mengubahnya.
   \item Menambahkan OSPFv3 Instance dan Area \\
-  Untuk melakukan routing dinamis, praktikan perlu menambahkan OSPFv3 instance. Pertama-tama, praktikan masuk ke menu Routing > OSPFv3 kemudian tab instance. Pada tab ini, praktikan menambahkan instance degan nama dan router id sesuai arahan modul. Setelah itu, praktikan membuka tab Areas pada menu yang sama dan menambahkan area sesuai arahan modul. 
+  Untuk melakukan routing dinamis, praktikan perlu menambahkan OSPFv3 instance. Pertama-tama, praktikan masuk ke menu Routing > OSPFv3 kemudian tab instance. Pada tab ini, praktikan menambahkan instance degan nama dan router id sesuai arahan modul. Setelah itu, praktikan membuka tab Areas pada menu yang sama dan menambahkan area sesuai arahan modul. Hasil instance dan area dapat dilihat pada gambar \ref{fig:langkahb2a} dan \ref{fig:langkahb2b}.
   \item Menambahkan Interface OSPFv3 \\
-  Kemudian, agar routing bisa dilakukan dinamis antara interface router yang terhubung, praktikan menambhakan interfaces OSPFv3. Sesuai arahan modul, praktikan menambahkan konfigurasi interface, intance, dan area.
+  Kemudian, agar routing bisa dilakukan dinamis antara interface router yang terhubung, praktikan menambhakan interfaces OSPFv3. Sesuai arahan modul, praktikan menambahkan konfigurasi interface, intance, dan area. Hasil seperti pada gambar \ref{fig:langkahb3}.
   \item Mengecek Neighbour dan Routing \\
-  Praktikan memastikan apakah interface dari masing-masing router dapat mebaca atau mendeteksi keberadaan satu sama lain. Untuk melakukannya, praktikan memilih tab Neighbour.
+  Praktikan memastikan apakah interface dari masing-masing router dapat mebaca atau mendeteksi keberadaan satu sama lain. Untuk melakukannya, praktikan memilih tab Neighbour seperti yang terlihat pada gambar \ref{fig:langkahb4}.
   \item Menguji Konektivitas \\
-  Setelah semuanya dikonfigurasikan, praktikan menguji koneksi dengan ping ke interface router A, router B, dan laptop lainnya. Hasil dari ping berhasil seperti terlihat di gambar
+  Setelah semuanya dikonfigurasikan, praktikan menguji koneksi dengan ping ke interface router A, router B, dan laptop lainnya. Hasil dari ping berhasil seperti terlihat di gambar \ref{fig:langkahb5}.
 \end{enumerate}
 
 \section{Analisis Hasil Percobaan}
@@ -99,7 +99,49 @@ Berdasarkan praktikum yang telah dilakukan, dapat diambil beberpaa kesimpulan pe
 
 \begin{figure}[H] 
     \centering
-    \includegraphics[width=0.5\textwidth]{tumod/simulasi.png} 
-    \caption{Hasil Simulasi di CIsco Packet Tracer} 
-    \label{fig:tumod10} 
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 1/assign ip.png} 
+    \caption{Memberikan Alamat IPv6 ke Semua interfaces} 
+    \label{fig:langkaha2} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/ping laptop 1 ipv6.png} 
+    \caption{Hasil Routing Table Statis} 
+    \label{fig:langkaha5} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/jarkomp2-dinamis-instance-ospfv3.png} 
+    \caption{Menyetel Instance OSPFv3} 
+    \label{fig:langkahb2a} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/jarkomp2-dinamis-2.png} 
+    \caption{Menyetel Area OSPFv3} 
+    \label{fig:langkahb2b} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/jarkomp2-dinamis-3.png} 
+    \caption{Menyetel Interface OSPFv3} 
+    \label{fig:langkahb3} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/jarkomp2-dinamis-4.png} 
+    \caption{Melihat Neighbour OSPFv3} 
+    \label{fig:langkahb4} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Laptop 2/jarkomp2-dinamis-5.png} 
+    \caption{Menguji Konektivitas} 
+    \label{fig:langkahb5} 
+\end{figure}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Dokum P2/Dokum kelompok.jpg} 
+    \caption{Dokumentasi Bersama Kelompok} 
+    \label{fig:dokum} 
 \end{figure}
