@@ -1,15 +1,17 @@
 # Fdb version 4
-["biber LS"] 1748586105.57022 "LS.bcf" "LS.bbl" "LS" 1748586125.64127 0
-  "LS.bcf" 1748586124 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LS"] 1748586105.57022 "LS.bcf" "LS.bbl" "LS" 1748590675.54109 0
+  "LS.bcf" 1748590674 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LS.bbl"
   "LS.blg"
   (rewritten before read)
-["pdflatex"] 1748586119.49687 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P4/P4_Nur Anisa H M_5024231025/LS.tex" "LS.pdf" "LS" 1748586125.6437 0
+["pdflatex"] 1748590670.30152 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P4/P4_Nur Anisa H M_5024231025/LS.tex" "LS.pdf" "LS" 1748590675.54281 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
+  "C:/Users/hp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1746774307 21972 ce582bba6213f38e5a34613fc62bbfb4 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
+  "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ectt1095.tfm" 993062342 1352 fa21dcb5ddc7d1dc47d14cd897fdeb0f ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -63,6 +65,7 @@
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty" 1705273578 5319 2b738d02ce36ada6dcdd9534940db0ee ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1705273578 5048 425739d70251273bf93e3d51f3c40048 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo" 1705273578 8464 59874a3b0776c73e2a138b025d8473dd ""
+  "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/base/t1cmtt.fd" 1705273578 2443 790016d75def8d3127df5c216a45abcc ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-ieee/ieee.bbx" 1741953950 20562 98c82b823dfb4f568b73a27dfacfe75a ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/biblatex-ieee/ieee.cbx" 1741953950 1656 4038b2d03a8ad3057f56478781bd4b19 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/numeric-comp.bbx" 1679055682 92 7cdbb04a1e32fba0fbb91b6e6d123497 ""
@@ -130,12 +133,12 @@
   "Cover/img/footer.png" 1746707162 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1746707162 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LS.aux" 1748586124 893 1d33827334ddba49baeddc2393e8ca28 "pdflatex"
+  "LS.aux" 1748590674 893 6f0d8d2aa17b54dec9adcabf48c7193f "pdflatex"
   "LS.bbl" 1748586113 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
-  "LS.out" 1748586124 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
-  "LS.run.xml" 1748586124 2276 49f9572208b8717175a10c83b30f3352 "pdflatex"
+  "LS.out" 1748590674 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
+  "LS.run.xml" 1748590674 2276 49f9572208b8717175a10c83b30f3352 "pdflatex"
   "LS.tex" 1748586093 2822 fd90d5f4bf7b8a8ff9c78a83c6ff7887 ""
-  "P1/crimping.tex" 1748585577 1175 00671952a2c75ecd7984ec5b08c9cde9 ""
+  "P1/crimping.tex" 1748590668 6797 e5d64c896f3403106029e7607833c350 ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P4/P4_Nur Anisa H M_5024231025/LS.tex" 1748586093 2822 fd90d5f4bf7b8a8ff9c78a83c6ff7887 ""
   "miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
   (generated)

@@ -314,11 +314,17 @@ INPUT .\miot.png
 INPUT .\miot.png
 INPUT .\miot.png
 INPUT .\miot.png
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT LS.aux
 INPUT .\LS.out
 INPUT .\LS.out
 INPUT LS.run.xml
 OUTPUT LS.run.xml
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvb.pfb
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvb.pfb
 INPUT C:\Users\hp\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvbi.pfb
