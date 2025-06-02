@@ -1,20 +1,11 @@
 # Fdb version 4
-<<<<<<< HEAD
-["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748842238.54618 0
-  "LA.bcf" 1748842237 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
-=======
-["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748842178.44839 0
-  "LA.bcf" 1748842177 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
->>>>>>> laprak-p3-nur
+["biber LA"] 1748842270.76323 "LA.bcf" "LA.bbl" "LA" 1748843978.22269 0
+  "LA.bcf" 1748843977 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-<<<<<<< HEAD
-["pdflatex"] 1748842233.90575 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748842238.54799 0
-=======
-["pdflatex"] 1748842173.05899 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748842178.45051 0
->>>>>>> laprak-p3-nur
+["pdflatex"] 1748843971.76572 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748843978.22502 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -142,24 +133,24 @@
   "Cover/img/footer.png" 1748222089 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1748222089 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
-<<<<<<< HEAD
-  "LA.aux" 1748842237 1134 8a09ecf058306aad4ce14533aa2946cd "pdflatex"
-  "LA.bbl" 1748222110 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748842237 843 97dfc804630dbc306e68eb146c964a2e "pdflatex"
-  "LA.run.xml" 1748842237 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
+  "LA.aux" 1748843977 3751 d67329cd99111067307da1465656fc63 "pdflatex"
+  "LA.bbl" 1748842400 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
+  "LA.out" 1748843977 1408 9d0b928eb9cce267bed026a23a7e79e3 "pdflatex"
+  "LA.run.xml" 1748843977 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
   "LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
-  "P1/crimping.tex" 1748842224 1431 90462f4ca5d500627a33f5797df907ef ""
-=======
-  "LA.aux" 1748842177 2577 40ffbf8aa4f4e303879afb0eda6b80ba "pdflatex"
-  "LA.bbl" 1748222110 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748842177 1408 9d0b928eb9cce267bed026a23a7e79e3 "pdflatex"
-  "LA.run.xml" 1748842177 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
-  "LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
-  "P1/crimping.tex" 1748842163 7448 e35352cb2371a638e20e1f593be9e50c ""
->>>>>>> laprak-p3-nur
+  "P1/crimping.tex" 1748843962 9011 2313e031676d4543001066c52109ffda ""
+  "dokum/IMG20250524100735.jpg" 1748843847 1471292 4f4046a0e6d041fe1887a850bb6e9792 ""
+  "dokum/Laptop 1/bridge.png" 1748585164 32990 18d097772be64abf30db7c6aebd74332 ""
+  "dokum/Laptop 1/jarkom3-ptm-awt interfaces.png" 1748585164 32660 58cf4d4eb1bd8f097475163e37236f72 ""
+  "dokum/Laptop 1/jarkom3-ptm-ping.png" 1748585164 63044 1d23867a607b0d5d752a94ad3dea5b31 ""
+  "dokum/Laptop 1/jarkom3-wb-interfaces.png" 1748585164 32990 18d097772be64abf30db7c6aebd74332 ""
+  "dokum/Laptop 1/jarkom3-wb-ping.png" 1748585164 108516 1097497f8e62342f67062c34764fc1f4 ""
+  "dokum/Laptop 1/ping ptp.png" 1748585164 63044 1d23867a607b0d5d752a94ad3dea5b31 ""
+  "dokum/Laptop 1/ptp ip.png" 1748585164 35993 659794cdcfc94f2ab689ecd779679813 ""
+  "dokum/Laptop 1/routes wlan router a.png" 1748585164 35993 659794cdcfc94f2ab689ecd779679813 ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
   "miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "tumod/tumod jarkom3.png" 1748842163 47907 52f9ee90978ba70a23851a1aaafc3c5e ""
+  "tumod/tumod jarkom3.png" 1748842267 47907 52f9ee90978ba70a23851a1aaafc3c5e ""
   (generated)
   "LA.aux"
   "LA.bcf"

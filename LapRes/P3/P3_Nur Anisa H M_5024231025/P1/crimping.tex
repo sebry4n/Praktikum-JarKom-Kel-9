@@ -9,37 +9,37 @@ Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan y
   \item Konfigurasi kabel\\
   Sebelm mengkonfigurasi router lebih jauh, praktikan menghubungkan router dan laptop sesuai topologi yang diberikan asisten praktikum. Router 2 dan 1 dihubungkan ke ether 7. Sedangkan laptop dihubungkan pada rether 6. 
   \item Konfigurasi Bridge Router 1\\
-  Router 1 akan digunakan sebagai bridge. Pertama, interface ether 1 diaktifkan sebagai WLAN dengan memilih menu wireless > wifi > interface > WLAN 1. Edit konfigurasinya menajdi mode bridge dengan SSID PointToPoint\_9
+  Router 1 akan digunakan sebagai bridge. Pertama, interface ether 1 diaktifkan sebagai WLAN dengan memilih menu wireless > wifi > interface > WLAN 1. Edit konfigurasinya menajdi mode bridge dengan SSID PointToPoint\_9. Hasil dapat dilihat pada \ref{fig:ptp-router1}.
   \item Konfigurasi Router 2 \\
-  Router 2 juga dikonfigurasi ether 7 nya seperti ether 1 router 1. Setelah mendapatkan interface WLAN, konfigurasinya diedit dengan nilai mode station. Setelah itu, praktikan melakukan scan untuk mendapatkan sinyal dari router 1 dengan SSID PointToPoint\_9.
+  Router 2 juga dikonfigurasi ether 7 nya seperti ether 1 router 1. Setelah mendapatkan interface WLAN, konfigurasinya diedit dengan nilai mode station. Setelah itu, praktikan melakukan scan untuk mendapatkan sinyal dari router 1 dengan SSID PointToPoint\_9. 
   \item Konfigurasi IP
-  Terdapat 2 jenis interface yang perlu diberikan IP, yaitu interface WLAN (ether 7 router 1 dan ether 7 router 2) dan interface LAN (ether 6 router 1 dan ether 6 router 2). Praktikan melakukan konfigurasi dengan alamat seperti arahan modul. Ip laptop diset statis dengan nilai seperti di modul.
+  Terdapat 2 jenis interface yang perlu diberikan IP, yaitu interface WLAN (ether 7 router 1 dan ether 7 router 2) dan interface LAN (ether 6 router 1 dan ether 6 router 2). Praktikan melakukan konfigurasi dengan alamat seperti arahan modul. Ip laptop diset statis dengan nilai seperti di modul. Hasil dapat dilihat pada \ref{fig:ptp-ip}.
   \item Konfigurasi Routing Statis \\
-  Routing ini berfungsi agar laptop bisa berkomunikasi dengan router 2. Praktikan melakukan konfigurasi routing statis pada router 1 dengan nilai Dst. Address: 192.168.30.0/24 dan Gateway: 10.10.10.2. Sedangkan pada router 2, praktikan emlakukan konfigurasi dengan nilai Dst. Address: 192.168.20.0/24 dan Gateway: 10.10.10.1
+  Routing ini berfungsi agar laptop bisa berkomunikasi dengan router 2. Praktikan melakukan konfigurasi routing statis pada router 1 dengan nilai Dst. Address: 192.168.30.0/24 dan Gateway: 10.10.10.2. Sedangkan pada router 2, praktikan emlakukan konfigurasi dengan nilai Dst. Address: 192.168.20.0/24 dan Gateway: 10.10.10.1. Hasil dapat dilihat pada \ref{fig:ptp-routing}.
   \item Test Koneksi
-  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya.
+  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya. Hasil dapat dilihat pada \ref{fig:ptp-ping}.
 \end{enumerate}
 
 \subsection{Point to Multipoint}
 \begin{enumerate}
   \item Konfigurasi Interface WLAN \\
-  Pada router 1, praktikan mengubah konfigurasi menjadi mode Ap Bridge dengan SSID PointToMultipoint\_9. Sedangkan pada router 2, konfigurasi WLAN diubah menjadi mode Station Bridge. Seperti sebelumnya, pada router 2 praktikan melakukan scan untuk mendapatkan koneksi ke router 1 melalui SSID PointToMultipoint\_9. 
+  Pada router 1, praktikan mengubah konfigurasi menjadi mode Ap Bridge dengan SSID PointToMultipoint\_9. Sedangkan pada router 2, konfigurasi WLAN diubah menjadi mode Station Bridge. Seperti sebelumnya, pada router 2 praktikan melakukan scan untuk mendapatkan koneksi ke router 1 melalui SSID PointToMultipoint\_9. Hasil dapat dilihat pada \ref{fig:ptm-konfigure}.
   \item Konfigurasi IP dan Routing Statis\\
   Karena praktikan tidak emlakukan reset, maka praktikan tidak perlu mengeset IP lagi.
   \item Test Koneksi \\
-  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya.
+  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya. Hasil dapat dilihat pada \ref{fig:ptm-ping}.
 \end{enumerate}
 
 \subsection{Bridge}
 \begin{enumerate}
   \item Konfigurasi Interface LAN \\
-  Pada router 1, konfigurasi WLAN diubah menajdi Bridge dengan SSID WirelessBridge\_9. Sedangkan pada router 2 diubah menjadi mode station pseudobridge. Setelah itu, pada router 2 praktikan melakukan scan untuk terhubung dengan SSID WirelessBridge\_9. 
+  Pada router 1, konfigurasi WLAN diubah menajdi Bridge dengan SSID WirelessBridge\_9. Sedangkan pada router 2 diubah menjadi mode station pseudobridge. Setelah itu, pada router 2 praktikan melakukan scan untuk terhubung dengan SSID WirelessBridge\_9. Hasil dapat dilihat pada \ref{fig:wb-konfigure}.
   \item Konfigurasi IP dan Routing Statis\\
   Karena praktikan tidak emlakukan reset, maka praktikan tidak perlu mengeset IP lagi. Routing statis dihapus
   \item Membuat Bridge \\
-  Brige bertujuan untuk langsung mengalihkan koneksi ke port atau interface tertentu tanpa routing. Pada oruter 1 dan 2, praktikan masuk ke menu Bridge > + dan diberi nama bridge1. ada menu Bridge > Ports, praktikan menambahkan konfigurasi untuk WLAN router 1 dan ether 7 router 2 agar terhubung dengan bridge1. 
+  Brige bertujuan untuk langsung mengalihkan koneksi ke port atau interface tertentu tanpa routing. Pada oruter 1 dan 2, praktikan masuk ke menu Bridge > + dan diberi nama bridge1. ada menu Bridge > Ports, praktikan menambahkan konfigurasi untuk WLAN router 1 dan ether 7 router 2 agar terhubung dengan bridge1.
   \item Test Koneksi \\
-  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya.
+  Praktikan melakukan test koneksi dengan melakukan ping dari router ke interface WLAN router B dan dari router B ke interface WLAN router 1. Praktikan juga melakukan ping dari laptop 1 ke laptop 2 dan sebaliknya. Hasil dapat dilihat pada \ref{fig:wb-ping}.
 \end{enumerate}
 
 \section{Analisis Hasil Percobaan}
@@ -57,7 +57,7 @@ Menggunakan Point-to-Multipoint (PTMP) di Cisco Packet Tracer. \\
 Berikut ini merupakan hasil dari simulasi. File dapat di cek di tumod > tumod jarkom p3.pkt
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\linewidth]{tumod/tumod jarkom3.png} 
+    \includegraphics[width=0.5\linewidth]{tumod/tumod jarkom3.png} 
     \caption{Hasil Simulasi Tugas Modul}
     \label{fig:tumod}
 \end{figure}
@@ -71,24 +71,63 @@ Berdasarkan percobaan yang telah dilakukan, dapat diambil beberapa kesimpulan pe
 \subsection{Dokumentasi saat praktikum}
 \begin{figure}[htbp]
     \centering
-    % \includegraphics[width=\linewidth]{namafile.jpg} 
-    \caption{Hasil Simulasi TUgas Modul}
-    \label{fig:tumod}
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/bridge.png} 
+    \caption{Hasil Konfigurasi WLAN}
+    \label{fig:ptp-router1}
 \end{figure}
 
 \begin{figure}[htbp]
     \centering
-    % \includegraphics[width=\linewidth]{namafile.jpg} 
-    \caption{Hasil Simulasi TUgas Modul}
-    \label{fig:tumod}
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/ptp ip.png} 
+    \caption{Hasil IP}
+    \label{fig:ptp-ip}
 \end{figure}
 
 \begin{figure}[htbp]
     \centering
-    % \includegraphics[width=\linewidth]{namafile.jpg} 
-    \caption{Hasil Simulasi TUgas Modul}
-    \label{fig:tumod}
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/routes wlan router a.png} 
+    \caption{Hasil Routing}
+    \label{fig:ptp-routing}
 \end{figure}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/ping ptp.png} 
+    \caption{Hasil Ping}
+    \label{fig:ptp-ping}
+\end{figure}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/jarkom3-ptm-awt interfaces.png} 
+    \caption{Hasil Konfigurasi PTM}
+    \label{fig:ptm-konfigure}
+\end{figure}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/jarkom3-ptm-ping.png} 
+    \caption{Hasil Ping PTM}
+    \label{fig:ptm-ping}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/jarkom3-wb-interfaces.png} 
+    \caption{Hasil Konfigurasi WB}
+    \label{fig:wb-konfigure}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/Laptop 1/jarkom3-wb-ping.png} 
+    \caption{Hasil Ping WB}
+    \label{fig:wb-ping}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{dokum/IMG20250524100735.jpg} 
+    \caption{Dokumentasi}
+    \label{fig:dokumentasi}
+\end{figure}

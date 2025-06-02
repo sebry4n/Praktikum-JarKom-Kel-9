@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  2 JUN 2025 12:30
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  2 JUN 2025 12:29
->>>>>>> laprak-p3-nur
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  2 JUN 2025 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,17 +630,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux
-
-LaTeX Warning: Label `fig:tumod' multiply defined.
-
-
-LaTeX Warning: Label `fig:tumod' multiply defined.
-
-
-LaTeX Warning: Label `fig:tumod' multiply defined.
-
-)
+) (LA.aux)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -774,7 +760,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.27   \item K
               onfigurasi IP dan Routing Statis\\
-<miot.png, id=58, 200.75pt x 200.75pt>
+<miot.png, id=63, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
 Package pdftex.def Info: miot.png  used on input line 27.
@@ -790,20 +776,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<tumod/tumod jarkom3.png, id=81, 453.19313pt x 347.04657pt>
+<tumod/tumod jarkom3.png, id=97, 453.19313pt x 347.04657pt>
 File: tumod/tumod jarkom3.png Graphic file (type png)
 <use tumod/tumod jarkom3.png>
 Package pdftex.def Info: tumod/tumod jarkom3.png  used on input line 60.
-(pdftex.def)             Requested size: 483.69687pt x 370.40414pt.
-) [3{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [4 <./tumod/tumod jarkom3.png>] (LA.aux)
+(pdftex.def)             Requested size: 241.84843pt x 185.19942pt.
+<dokum/Laptop 1/bridge.png, id=98, 400.49625pt x 378.66469pt>
+File: dokum/Laptop 1/bridge.png Graphic file (type png)
+<use dokum/Laptop 1/bridge.png>
+Package pdftex.def Info: dokum/Laptop 1/bridge.png  used on input line 74.
+(pdftex.def)             Requested size: 241.84843pt x 228.66815pt.
+[3{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./tumod/tumod jarkom3.png>]
+<dokum/Laptop 1/ptp ip.png, id=106, 626.34pt x 633.11531pt>
+File: dokum/Laptop 1/ptp ip.png Graphic file (type png)
+<use dokum/Laptop 1/ptp ip.png>
+Package pdftex.def Info: dokum/Laptop 1/ptp ip.png  used on input line 81.
+(pdftex.def)             Requested size: 241.84843pt x 244.46019pt.
+<dokum/Laptop 1/routes wlan router a.png, id=107, 626.34pt x 633.11531pt>
+File: dokum/Laptop 1/routes wlan router a.png Graphic file (type png)
+<use dokum/Laptop 1/routes wlan router a.png>
+Package pdftex.def Info: dokum/Laptop 1/routes wlan router a.png  used on input line 88.
+(pdftex.def)             Requested size: 241.84843pt x 244.46019pt.
+<dokum/Laptop 1/ping ptp.png, id=108, 407.27156pt x 468.24937pt>
+File: dokum/Laptop 1/ping ptp.png Graphic file (type png)
+<use dokum/Laptop 1/ping ptp.png>
+Package pdftex.def Info: dokum/Laptop 1/ping ptp.png  used on input line 95.
+(pdftex.def)             Requested size: 241.84843pt x 278.05809pt.
+<dokum/Laptop 1/jarkom3-ptm-awt interfaces.png, id=109, 404.26031pt x 374.14781pt>
+File: dokum/Laptop 1/jarkom3-ptm-awt interfaces.png Graphic file (type png)
+<use dokum/Laptop 1/jarkom3-ptm-awt interfaces.png>
+Package pdftex.def Info: dokum/Laptop 1/jarkom3-ptm-awt interfaces.png  used on input line 102.
+(pdftex.def)             Requested size: 241.84843pt x 223.83386pt.
+<dokum/Laptop 1/jarkom3-ptm-ping.png, id=110, 407.27156pt x 468.24937pt>
+File: dokum/Laptop 1/jarkom3-ptm-ping.png Graphic file (type png)
+<use dokum/Laptop 1/jarkom3-ptm-ping.png>
+Package pdftex.def Info: dokum/Laptop 1/jarkom3-ptm-ping.png  used on input line 109.
+(pdftex.def)             Requested size: 241.84843pt x 278.05809pt.
+<dokum/Laptop 1/jarkom3-wb-interfaces.png, id=111, 400.49625pt x 378.66469pt>
+File: dokum/Laptop 1/jarkom3-wb-interfaces.png Graphic file (type png)
+<use dokum/Laptop 1/jarkom3-wb-interfaces.png>
+Package pdftex.def Info: dokum/Laptop 1/jarkom3-wb-interfaces.png  used on input line 116.
+(pdftex.def)             Requested size: 241.84843pt x 228.66815pt.
+<dokum/Laptop 1/jarkom3-wb-ping.png, id=112, 468.24937pt x 787.44188pt>
+File: dokum/Laptop 1/jarkom3-wb-ping.png Graphic file (type png)
+<use dokum/Laptop 1/jarkom3-wb-ping.png>
+Package pdftex.def Info: dokum/Laptop 1/jarkom3-wb-ping.png  used on input line 123.
+(pdftex.def)             Requested size: 241.84843pt x 406.72061pt.
+<dokum/IMG20250524100735.jpg, id=113, 2601.72pt x 1951.29pt>
+File: dokum/IMG20250524100735.jpg Graphic file (type jpg)
+<use dokum/IMG20250524100735.jpg>
+Package pdftex.def Info: dokum/IMG20250524100735.jpg  used on input line 130.
+(pdftex.def)             Requested size: 241.84843pt x 181.38472pt.
+) [4 <./dokum/Laptop 1/bridge.png> <./dokum/Laptop 1/ptp ip.png>] [5 <./dokum/Laptop 1/routes wlan router a.png> <./dokum/Laptop 1/ping ptp.png>] [6 <./dokum/Laptop 1/jarkom3-ptm-awt interfaces.png> <./dokum/Laptop 1/jarkom3-ptm-ping.png>] [7 <./dokum/Laptop 1/jarkom3-wb-interfaces.png> <./dokum/Laptop 1/jarkom3-wb-ping.png>] [8 <./dokum/IMG20250524100735.jpg>] (LA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `LA.out' has not changed.
 (rerunfilecheck)             Checksum: 9D0B928EB9CCE267BED026A23A7E79E3;1408.
 Package logreq Info: Writing requests to 'LA.run.xml'.
@@ -811,17 +839,17 @@ Package logreq Info: Writing requests to 'LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21345 strings out of 474486
- 371699 string characters out of 5745172
+ 21427 strings out of 474486
+ 374472 string characters out of 5745172
  1937542 words of memory out of 5000000
- 43326 multiletter control sequences out of 15000+600000
+ 43398 multiletter control sequences out of 15000+600000
  604450 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1541b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1541b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (5 pages, 186024 bytes).
+Output written on LA.pdf (9 pages, 1868933 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
