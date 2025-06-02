@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  26 MAY 2025 08:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  2 JUN 2025 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,7 +630,17 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux)
+) (LA.aux
+
+LaTeX Warning: Label `fig:tumod' multiply defined.
+
+
+LaTeX Warning: Label `fig:tumod' multiply defined.
+
+
+LaTeX Warning: Label `fig:tumod' multiply defined.
+
+)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -746,7 +756,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=30, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=46, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -755,46 +765,59 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 
 
 {C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-Overfull \hbox (6.66455pt too wide) in paragraph at lines 2--3
-\T1/qhv/m/n/10.95 Bagian ini men-je-lask-an se-ca-ra rin-ci ta-hap-an atau pro-se-dur yang di-la-kuk-an se-la-ma prak-ti-kum. Langkah-
- []
-
-)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 \end{document}
-                   
-<miot.png, id=42, 200.75pt x 200.75pt>
+l.27   \item K
+              onfigurasi IP dan Routing Statis\\
+<miot.png, id=58, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
-Package pdftex.def Info: miot.png  used on input line 99.
+Package pdftex.def Info: miot.png  used on input line 27.
 (pdftex.def)             Requested size: 238.9995pt x 239.01491pt.
  [1
 
- <./miot.png>] (LA.aux)
+ <./miot.png>] [2]
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 51.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qhv.fd
+File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+<tumod/tumod jarkom3.png, id=81, 453.19313pt x 347.04657pt>
+File: tumod/tumod jarkom3.png Graphic file (type png)
+<use tumod/tumod jarkom3.png>
+Package pdftex.def Info: tumod/tumod jarkom3.png  used on input line 60.
+(pdftex.def)             Requested size: 483.69687pt x 370.40414pt.
+) [3{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [4 <./tumod/tumod jarkom3.png>] (LA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `LA.out' has not changed.
-(rerunfilecheck)             Checksum: 97DFC804630DBC306E68EB146C964A2E;843.
+(rerunfilecheck)             Checksum: 9D0B928EB9CCE267BED026A23A7E79E3;1408.
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21258 strings out of 474486
- 370291 string characters out of 5745172
- 1931542 words of memory out of 5000000
- 43269 multiletter control sequences out of 15000+600000
- 601087 words of font info for 62 fonts, out of 8000000 for 9000
+ 21345 strings out of 474486
+ 371699 string characters out of 5745172
+ 1937542 words of memory out of 5000000
+ 43326 multiletter control sequences out of 15000+600000
+ 604450 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1261b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1541b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (2 pages, 139469 bytes).
+Output written on LA.pdf (5 pages, 186024 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

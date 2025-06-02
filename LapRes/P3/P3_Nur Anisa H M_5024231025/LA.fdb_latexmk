@@ -1,14 +1,15 @@
 # Fdb version 4
-["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748222117.17827 0
-  "LA.bcf" 1748222116 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748842003.45958 0
+  "LA.bcf" 1748842002 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1748222111.73498 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748222117.18076 0
+["pdflatex"] 1748841998.73578 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748842003.46131 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
+  "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1525740614 3124 3813fd4c981d99822890a2861b0d274c ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -26,6 +27,7 @@
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ec-qhvbi.tfm" 1256929440 12396 e65c2800bb94ee6ae6e4fdf18f68fa2e ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ec-qhvr.tfm" 1256929440 12084 374c5b7e91efcc10472ab8e61f66d36b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ec-qhvri.tfm" 1256929440 13000 e730d0ebac741bb40e33ae43a6264526 ""
+  "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ts1-qhvr.tfm" 1256929440 1560 753cb451b29683799c3de4bf174f308f ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb" 1256929440 112164 9a008608d864b5b2b3e09f1772eadc4f ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb" 1256929440 104926 e0ff8be079eb5d764210da978979a6d4 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb" 1256929440 110045 c7ff88f51a7375dc708c2420cc515d9e ""
@@ -119,6 +121,7 @@
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tex-gyre/t1qhv.fd" 1256929440 2378 01e898189bf06467f2f6fe33decbff09 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tex-gyre/tgheros.sty" 1256929440 2130 2b41e80713f78d339e74c19d96fe70a1 ""
+  "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tex-gyre/ts1qhv.fd" 1256929440 1526 6575e48e109c684eee36755cb0147d1e ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
@@ -130,14 +133,15 @@
   "Cover/img/footer.png" 1748222089 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1748222089 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LA.aux" 1748222116 1134 8a09ecf058306aad4ce14533aa2946cd "pdflatex"
+  "LA.aux" 1748842002 2577 40ffbf8aa4f4e303879afb0eda6b80ba "pdflatex"
   "LA.bbl" 1748222110 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748222116 843 97dfc804630dbc306e68eb146c964a2e "pdflatex"
-  "LA.run.xml" 1748222116 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
+  "LA.out" 1748842002 1408 9d0b928eb9cce267bed026a23a7e79e3 "pdflatex"
+  "LA.run.xml" 1748842002 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
   "LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
-  "P1/crimping.tex" 1748222089 1431 90462f4ca5d500627a33f5797df907ef ""
+  "P1/crimping.tex" 1748841978 7448 e35352cb2371a638e20e1f593be9e50c ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
   "miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
+  "tumod/tumod jarkom3.png" 1748841819 47907 52f9ee90978ba70a23851a1aaafc3c5e ""
   (generated)
   "LA.aux"
   "LA.bcf"
