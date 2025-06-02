@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748842112.65722 0
-  "LA.bcf" 1748842112 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LA"] 1748222104.906 "LA.bcf" "LA.bbl" "LA" 1748842238.54618 0
+  "LA.bcf" 1748842237 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1748842107.08788 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748842112.65895 0
+["pdflatex"] 1748842233.90575 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1748842238.54799 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -130,12 +130,12 @@
   "Cover/img/footer.png" 1748222089 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1748222089 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LA.aux" 1748842111 1134 8a09ecf058306aad4ce14533aa2946cd "pdflatex"
+  "LA.aux" 1748842237 1134 8a09ecf058306aad4ce14533aa2946cd "pdflatex"
   "LA.bbl" 1748222110 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748842112 843 97dfc804630dbc306e68eb146c964a2e "pdflatex"
-  "LA.run.xml" 1748842112 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
+  "LA.out" 1748842237 843 97dfc804630dbc306e68eb146c964a2e "pdflatex"
+  "LA.run.xml" 1748842237 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
   "LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
-  "P1/crimping.tex" 1748842094 1431 90462f4ca5d500627a33f5797df907ef ""
+  "P1/crimping.tex" 1748842224 1431 90462f4ca5d500627a33f5797df907ef ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P3/P3_Nur Anisa H M_5024231025/LA.tex" 1748222089 2833 afeeead01c67d009eef6f030cb953c0c ""
   "miot.png" 1748222089 13325 9f73d680988fc58aae95c8b21181dad3 ""
   (generated)
