@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LS"] 1749007561.87662 "LS.bcf" "LS.bbl" "LS" 1749056357.19536 0
-  "LS.bcf" 1749056356 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LS"] 1749056423.7363 "LS.bcf" "LS.bbl" "LS" 1749056436.78328 0
+  "LS.bcf" 1749056435 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LS.bbl"
   "LS.blg"
   (rewritten before read)
-["pdflatex"] 1749056348.92163 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P5/P5_Nur Anisa H M_5024231025/LS.tex" "LS.pdf" "LS" 1749056357.19726 0
+["pdflatex"] 1749056430.53316 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P5/P5_Nur Anisa H M_5024231025/LS.tex" "LS.pdf" "LS" 1749056436.78517 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0900.pk" 1749055955 17512 d037e25accf4d5463b7d752f93b1a4d5 ""
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1746774307 21972 ce582bba6213f38e5a34613fc62bbfb4 ""
@@ -135,18 +135,18 @@
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent.sty" 1674488802 1918 c8d1ecb3722721d6f624992cbc042b70 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Cover/Header.tex" 1746707162 853 d1ecf0084ecebe6fef3cd4325a2a8258 ""
-  "Cover/img/footer.png" 1746707162 28618 7e563268718746d34d6e0293ee851b55 ""
-  "Cover/img/logodepart.png" 1746707162 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
-  "Cover/img/miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LS.aux" 1749056356 893 8ad85bf9bd89eed0a4ee35d40c8699e2 "pdflatex"
-  "LS.bbl" 1749007576 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
-  "LS.out" 1749056356 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
-  "LS.run.xml" 1749056356 2276 49f9572208b8717175a10c83b30f3352 "pdflatex"
-  "LS.tex" 1749024148 2871 8f6d4c59a67949ee97b3dc6051f01c81 ""
-  "P1/crimping.tex" 1749056346 14692 cea381ef5730ba75bc0cfb642209e542 ""
-  "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P5/P5_Nur Anisa H M_5024231025/LS.tex" 1749024148 2871 8f6d4c59a67949ee97b3dc6051f01c81 ""
-  "miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
+  "Cover/Header.tex" 1749056391 853 d1ecf0084ecebe6fef3cd4325a2a8258 ""
+  "Cover/img/footer.png" 1749056391 28618 7e563268718746d34d6e0293ee851b55 ""
+  "Cover/img/logodepart.png" 1749056391 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
+  "Cover/img/miot.png" 1749056391 13325 9f73d680988fc58aae95c8b21181dad3 ""
+  "LS.aux" 1749056435 893 8ad85bf9bd89eed0a4ee35d40c8699e2 "pdflatex"
+  "LS.bbl" 1749056429 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
+  "LS.out" 1749056435 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
+  "LS.run.xml" 1749056435 2276 49f9572208b8717175a10c83b30f3352 "pdflatex"
+  "LS.tex" 1749056391 2871 8f6d4c59a67949ee97b3dc6051f01c81 ""
+  "P1/crimping.tex" 1749056391 14692 cea381ef5730ba75bc0cfb642209e542 ""
+  "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapSem/P5/P5_Nur Anisa H M_5024231025/LS.tex" 1749056391 2871 8f6d4c59a67949ee97b3dc6051f01c81 ""
+  "miot.png" 1749056391 13325 9f73d680988fc58aae95c8b21181dad3 ""
   (generated)
   "LS.aux"
   "LS.bcf"
