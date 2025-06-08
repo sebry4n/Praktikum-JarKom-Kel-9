@@ -1,4 +1,4 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'LA.blg'
-[576] biber-MSWIN64:340> INFO - === 
-[711] Biber.pm:419> INFO - Reading 'LA.bcf'
+[0] Config.pm:310> INFO - Logfile is 'LA.blg'
+[320] biber-MSWIN64:340> INFO - === 
+[435] Biber.pm:419> INFO - Reading 'LA.bcf'
