@@ -1,6 +1,6 @@
 \section{Langkah-Langkah Percobaan}
 \subsection{Persiapan Alat dan Bahan}
-Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan yang diperlukan. Alat dan bahan yang praktikan bawa sendiri diantaranya, laptop yang sudah terinstall Winbox, dan kabel UTP. Sedangkan alat dan bahan yang telah disediakan adalah 1 set router mikrotik. Pengambilan dilakukan oleh perwakilan kelompok.
+Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan yang diperlukan. Alat dan bahan yang praktikan bawa sendiri diantaranya, laptop yang sudah terinstall Winbox, dan kabel UTP. Sedangkan alat dan bahan yang telah disediakan adalah 2 set router mikrotik. Pengambilan dilakukan oleh perwakilan kelompok.
 
 \subsection{NAT \& Firewall}
 \begin{enumerate}
@@ -9,21 +9,21 @@ Sebelum memulai praktikum ini, praktikan mempersiapkan beberapa alat dan bahan y
   \item Reset dan Login Router \\
   Sebelum memulai praktikum, router direset terlebih dahulu untuk menghilangkan semua konfigurasi awal. Kemudian, praktikan login kembali ke router.
   \item Konfigurasi DHCP Client \\
-  Agar dapat terhubung dengan internet, praktikan mengkonfigurasi ether 1 sebagai DHCP client yang dapat menerima IP dari internet. Konfigurasi ini dilakukan dengan masuk ke menu IP > DHCP Client kemudian menambahkan input baru dengan konfigurasi sesuai modul. Untuk mengecek apakah konfigurasi sudah berhasil, praktikan cek status bound pada DHCP CLient dan ping 8.8.8.8 melalui terminal router.
+  Agar dapat terhubung dengan internet, praktikan mengkonfigurasi ether 1 sebagai DHCP client yang dapat menerima IP dari internet. Konfigurasi ini dilakukan dengan masuk ke menu IP > DHCP Client kemudian menambahkan input baru dengan konfigurasi sesuai modul. Untuk mengecek apakah konfigurasi sudah berhasil, praktikan cek status bound pada DHCP CLient dan ping 8.8.8.8 melalui terminal router. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:DHCPclientr1}
   \item Konfigurasi IP \\
-  Praktikan mengatur IP untuk ether 7 sesuai dengan konfigurasi modul, yaitu 192.168.10.1/24. Hal ini dilakukan pada menu IP > Addresses.
+  Praktikan mengatur IP untuk ether 7 sesuai dengan konfigurasi modul, yaitu 192.168.10.1/24. Hal ini dilakukan pada menu IP > Addresses. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:addressr1}
   \item Konfigurasi DHCP Server \\
-  Pada praktikum ini, router juga berperan sebagai DHCP server untuk koneksi melalui ether 7. Praktikan mengkonfigurasinya pada menu IP > DHCP Server dengan isi sesuai arahan modul. Alamat yang digunakan disesuaikan dengan alamat network ether 7 yaitu 192.168.10.0/24.
+  Pada praktikum ini, router juga berperan sebagai DHCP server untuk koneksi melalui ether 7. Praktikan mengkonfigurasinya pada menu IP > DHCP Server dengan isi sesuai arahan modul. Alamat yang digunakan disesuaikan dengan alamat network ether 7 yaitu 192.168.10.0/24. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:DHCPserverr1}
   \item Konfigurasi NAT \\
-  Selanjutnya, praktikan mengkonfigurasi NAT. Konfigurasi dilakukan di menu IP > Firewall > NAT dengan pengaturan sesuai modul. Untuk menguji apakah NAT sudah terkonfigurasi dengan baik, praktikan melakukan ping 8.8.8.8 melalui terminal laptop.
+  Selanjutnya, praktikan mengkonfigurasi NAT. Konfigurasi dilakukan di menu IP > Firewall > NAT dengan pengaturan sesuai modul. Untuk menguji apakah NAT sudah terkonfigurasi dengan baik, praktikan melakukan ping 8.8.8.8 melalui terminal laptop. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:nat-ra}
   \item Konfigurasi Firewall untuk Semua Situs\\
-  Firewall yang dipasang praktikan akan memblokir seluruh akses ke situs manapun. Prkatikan melakukan konfigurasi pada menu IP> Firewall > FIlter Rule dengan isi sesuai modul. Praktikan menguji hasil konfigurasi ini dengan akses pada browser dan hasilnya semua situs tidak dapat dijangkau.
+  Firewall yang dipasang praktikan akan memblokir seluruh akses ke situs manapun. Prkatikan melakukan konfigurasi pada menu IP> Firewall > FIlter Rule dengan isi sesuai modul. Praktikan menguji hasil konfigurasi ini dengan akses pada browser dan hasilnya semua situs tidak dapat dijangkau. Hasil konfigurasi dapat dilihat pada gambar \ref{fig:firewall-ra}
   \item Konfigurasi Firewall untuk Situs Tertentu\\
-  Kemudian, praktikan juga mencoba memblokir akses pada situs khusus dengan keyword "speedtest". Hasilnya, situs speedtest tidak dapat dijangkau namun praktikan tetap bisa mengakses situs lain. 
+  Kemudian, praktikan juga mencoba memblokir akses pada situs khusus dengan keyword "speedtest". Hasilnya, situs speedtest tidak dapat dijangkau namun praktikan tetap bisa mengakses situs lain. Hasil konfigurasi juga dapat dilihat pada gambar \ref{fig:firewall-ra}
   \item Konfigurasi Bridge pada Router B \\
   Praktikan akan membuat router B menjadi bekerja selayaknya hub/switch. Untuk melakukannya, praktikan menambahkan bridge yang diatur melalui menu Bridge. Selanjutnya, agar router A dapat langsung terhubung dengan interface lain di router B, praktikan menambahkan port (interface) yang akan dijadikan 1 bridge dengan ether 6 (router A), yaitu ether 7. Untuk mengecek apakah konfigurasi sudah berhasil, praktikan mengecek ipconfig pada laptop 2 yang terhubung dengan router B di ether 7. Ternyata tidak berhasil. 
   \item Konfigurasi DHCP Server lagi \\
-  ntuk melayani kebutuhan IP di router B, praktikan membuat DHCP server untuk interface ether 6 yang terhubung ke router B. Untuk mengetahui hasilnya, praktikan mengecek ipconfig dan laptop 2 ternyata sudah mendapatkan IP. Praktikan kemudian mengecek koneksi intenet dari laptop 2. Ditemukan laptop 2 dapat mengakses internet.
+  ntuk melayani kebutuhan IP di router B, praktikan membuat DHCP server untuk interface ether 6 yang terhubung ke router B. Untuk mengetahui hasilnya, praktikan mengecek ipconfig dan laptop 2 ternyata sudah mendapatkan IP. Praktikan kemudian mengecek koneksi intenet dari laptop 2. Ditemukan laptop 2 dapat mengakses internet. Hasil konfigurasi juga dapat dilihat pada gambar \ref{fig:DHCPserverr1}
 \end{enumerate}
 
 \section{Analisis Hasil Percobaan}
@@ -76,7 +76,7 @@ Berdasarkan praktikum yang telah dilakukan, dapat diambil beberapa kesimpulan pe
 \subsection{Dokumentasi saat praktikum}
 \begin{figure}[h]
     \centering
-    % \includegraphics[width=0.5\textwidth]{nama_file_gambar.jpg}
+    \includegraphics[width=0.5\textwidth]{dokum/dokum.jpg}
     \caption{Dokumentasi Praktikum}
     \label{fig:dokum}
 \end{figure}

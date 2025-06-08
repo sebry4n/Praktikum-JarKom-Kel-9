@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  9 JUN 2025 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  9 JUN 2025 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,7 +760,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.23   \item K
               onfigurasi Bridge pada Router B \\
-<miot.png, id=50, 200.75pt x 200.75pt>
+<miot.png, id=56, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
 Package pdftex.def Info: miot.png  used on input line 23.
@@ -768,7 +768,7 @@ Package pdftex.def Info: miot.png  used on input line 23.
  [1
 
  <./miot.png>]
-<tumod/notumod.png, id=62, 1371.1225pt x 770.88pt>
+<tumod/notumod.png, id=74, 1371.1225pt x 770.88pt>
 File: tumod/notumod.png Graphic file (type png)
 <use tumod/notumod.png>
 Package pdftex.def Info: tumod/notumod.png  used on input line 36.
@@ -778,17 +778,17 @@ Package pdftex.def Info: tumod/notumod.png  used on input line 36.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-<dokum/Addreses R1.png, id=70, 502.12593pt x 395.22656pt>
+<dokum/Addreses R1.png, id=82, 502.12593pt x 395.22656pt>
 File: dokum/Addreses R1.png Graphic file (type png)
 <use dokum/Addreses R1.png>
 Package pdftex.def Info: dokum/Addreses R1.png  used on input line 47.
 (pdftex.def)             Requested size: 241.84843pt x 190.36392pt.
-<dokum/dhcp client r1.png, id=71, 652.68843pt x 316.93407pt>
+<dokum/dhcp client r1.png, id=83, 652.68843pt x 316.93407pt>
 File: dokum/dhcp client r1.png Graphic file (type png)
 <use dokum/dhcp client r1.png>
 Package pdftex.def Info: dokum/dhcp client r1.png  used on input line 53.
 (pdftex.def)             Requested size: 241.84843pt x 117.43785pt.
-<dokum/dhcp server r1.png, id=72, 730.98094pt x 316.18124pt>
+<dokum/dhcp server r1.png, id=84, 730.98094pt x 316.18124pt>
 File: dokum/dhcp server r1.png Graphic file (type png)
 <use dokum/dhcp server r1.png>
 Package pdftex.def Info: dokum/dhcp server r1.png  used on input line 59.
@@ -797,7 +797,7 @@ Package pdftex.def Info: dokum/dhcp server r1.png  used on input line 59.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dokum/NAT r1.png, id=73, 773.13844pt x 367.3725pt>
+<dokum/NAT r1.png, id=85, 773.13844pt x 367.3725pt>
 File: dokum/NAT r1.png Graphic file (type png)
 <use dokum/NAT r1.png>
 Package pdftex.def Info: dokum/NAT r1.png  used on input line 65.
@@ -805,7 +805,7 @@ Package pdftex.def Info: dokum/NAT r1.png  used on input line 65.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dokum/filter rule r1.png, id=74, 766.36313pt x 691.08188pt>
+<dokum/filter rule r1.png, id=86, 766.36313pt x 691.08188pt>
 File: dokum/filter rule r1.png Graphic file (type png)
 <use dokum/filter rule r1.png>
 Package pdftex.def Info: dokum/filter rule r1.png  used on input line 71.
@@ -813,10 +813,16 @@ Package pdftex.def Info: dokum/filter rule r1.png  used on input line 71.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<dokum/dokum.jpg, id=87, 3035.34pt x 4047.12pt>
+File: dokum/dokum.jpg Graphic file (type jpg)
+<use dokum/dokum.jpg>
+Package pdftex.def Info: dokum/dokum.jpg  used on input line 79.
+(pdftex.def)             Requested size: 241.84843pt x 322.41763pt.
+[3 <./tumod/notumod.png> <./dokum/Addreses R1.png> <./dokum/dhcp client r1.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3 <./tumod/notumod.png> <./dokum/Addreses R1.png> <./dokum/dhcp client r1.png>] [4 <./dokum/dhcp server r1.png> <./dokum/NAT r1.png> <./dokum/filter rule r1.png>] (LA.aux)
+) [4 <./dokum/dhcp server r1.png> <./dokum/NAT r1.png>] [5 <./dokum/filter rule r1.png> <./dokum/dokum.jpg>] (LA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -828,17 +834,17 @@ Package logreq Info: Writing requests to 'LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21344 strings out of 474486
- 372107 string characters out of 5745172
+ 21352 strings out of 474486
+ 372266 string characters out of 5745172
  1938542 words of memory out of 5000000
- 43333 multiletter control sequences out of 15000+600000
+ 43340 multiletter control sequences out of 15000+600000
  604084 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1527b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1527b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (5 pages, 377850 bytes).
+Output written on LA.pdf (6 pages, 1442095 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

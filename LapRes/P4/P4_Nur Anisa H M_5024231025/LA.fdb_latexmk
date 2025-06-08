@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LA"] 1749397210.23632 "LA.bcf" "LA.bbl" "LA" 1749402264.25148 0
-  "LA.bcf" 1749402263 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
+["biber LA"] 1749397210.23632 "LA.bcf" "LA.bbl" "LA" 1749402859.92435 0
+  "LA.bcf" 1749402859 106504 4a69faaccbaf3ba542fa2261d5927214 "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1749402258.4591 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1749402264.25326 0
+["pdflatex"] 1749402853.01909 "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa H M_5024231025/LA.tex" "LA.pdf" "LA" 1749402859.92615 0
   "C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747638352 121449 e85afe5c81fd53391e458665b2336de2 ""
   "C:/Users/hp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746718990 24223629 832e43b72e21c1f98496f853cff5eb2b ""
   "C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -130,16 +130,17 @@
   "Cover/img/footer.png" 1746707162 28618 7e563268718746d34d6e0293ee851b55 ""
   "Cover/img/logodepart.png" 1746707162 37002 0f7871c228b1de42912bcfe0dae05fc4 ""
   "Cover/img/miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
-  "LA.aux" 1749402263 3106 26bb2436747815ccf030a77f85354f46 "pdflatex"
+  "LA.aux" 1749402859 3106 8dc0befca524cfcb46636aae76af5460 "pdflatex"
   "LA.bbl" 1749397219 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1749402263 1165 ec531e36d5c991de39f544a7320e132b "pdflatex"
-  "LA.run.xml" 1749402263 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
+  "LA.out" 1749402859 1165 ec531e36d5c991de39f544a7320e132b "pdflatex"
+  "LA.run.xml" 1749402859 2276 806fa917134bf096fadbd6a2548269f0 "pdflatex"
   "LA.tex" 1749397131 2831 a2e5f6f540a0fc39dcefc49e6261a5a8 ""
-  "P1/crimping.tex" 1749402251 6883 632ee305786228ae1a0d0428570c539c ""
+  "P1/crimping.tex" 1749402844 7343 c2f28f8fececb0d9ff9fe0a423d9a56d ""
   "dokum/Addreses R1.png" 1749396731 25272 ae7378a1f10e3024ca2b15854d59b221 ""
   "dokum/NAT r1.png" 1749396731 34697 cbcf866b3b57d907eed7791c3fdbfa43 ""
   "dokum/dhcp client r1.png" 1749396731 23567 f94cf85e23e3aa07bc2b2076d648d067 ""
   "dokum/dhcp server r1.png" 1749396731 27659 7d47de2848e0b78c557a6cf65a738216 ""
+  "dokum/dokum.jpg" 1749402560 1061598 b06a0559bbfd638b412f4a571ad4871b ""
   "dokum/filter rule r1.png" 1749396731 80549 029d9330444b8209afebf1b37cbde5db ""
   "e:/Kuliah di ITS/Praktikum jarkom/Laporan Kelompok/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa H M_5024231025/LA.tex" 1749397131 2831 a2e5f6f540a0fc39dcefc49e6261a5a8 ""
   "miot.png" 1746707162 13325 9f73d680988fc58aae95c8b21181dad3 ""
