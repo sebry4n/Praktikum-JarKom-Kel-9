@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  9 JUN 2025 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.8)  13 JUN 2025 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"e:/Kuliah di ITS/Praktikum jarkom/Laporan/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa Hidayatul M_5024231025/LA.tex"
-(e:/Kuliah di ITS/Praktikum jarkom/Laporan/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa Hidayatul M_5024231025/LA.tex
+**"e:/Kuliah di ITS/Praktikum Basis Data/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa Hidayatul M_5024231025/LA.tex"
+(e:/Kuliah di ITS/Praktikum Basis Data/Praktikum-JarKom-Kel-9/LapRes/P4/P4_Nur Anisa Hidayatul M_5024231025/LA.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -867,12 +867,12 @@ Package logreq Info: Writing requests to 'LA.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  21389 strings out of 474486
- 373240 string characters out of 5745172
+ 373184 string characters out of 5745172
  1938542 words of memory out of 5000000
  43372 multiletter control sequences out of 15000+600000
  604084 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1526b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1522b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
 Output written on LA.pdf (7 pages, 1532010 bytes).
 PDF statistics:
